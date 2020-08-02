@@ -3,8 +3,11 @@
 ## $git config
 
 You can use it to configure the author's name, email address, file formats and many more to be used with your commits.
-git config --global user.name "Pushpank"
-git config --global user.email "pushpank@gmail.com"
+
+```sh
+$ git config --global user.name "Pushpank"
+$ git config --global user.email "pushpank@gmail.com"
+```
 
 ## $git init
 
