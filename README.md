@@ -21,4 +21,9 @@ $ git init
 
 ## $git clone <path>
 
+This creates a working copy of a Git repository from a remote source to your local repository. This is the first command you want to use when you are cloning a Git repository.
+
+```sh
+$ git clone git@github:user/repository.git
+```
 
