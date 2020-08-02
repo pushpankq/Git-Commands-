@@ -135,3 +135,33 @@ Show changes between your working tree and the index, between two branches, or c
 ```sh
 $ git diff <source_branch> <target_branch>
 ```
+
+## $git log
+
+It shows a listing of commits on a branch with corresponding details.
+
+```sh
+$ git diff <source_branch> <target_branch>
+commit 35e16d379a466012216c2263592181f0bab99f36 (HEAD -> new, origin/master, origin/HEAD, master)
+Author: pushpankq@gmail.com <pushpank.kumar@finoit.co.in>
+Date:   Sun Aug 2 12:18:42 2020 +0530
+
+    Second commit
+
+commit 0a6c41d8d223d7d268d378354f35d5c19008da23
+Merge: fc88733 641b9cf
+Author: Kumar <31385878+DeekshaRaturi@users.noreply.github.com>
+Date:   Sun Aug 2 12:12:51 2020 +0530
+
+    Merge pull request #1 from kumar/dev
+    
+    added text data
+
+commit 641b9cf72ed3a2b61a4ef805b9368b690983a610 (origin/dev)
+Author: kumar_1994 <kumar@gmail.com>
+Date:   Sun Aug 2 12:06:22 2020 +0530
+
+    added text data
+```
+
+
