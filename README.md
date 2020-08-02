@@ -13,6 +13,9 @@ $ git config --global user.email "pushpank@gmail.com"
 
 Using this command you make it sure that your git repository is initialized and creates the initial .git directory in a new or in an existing project. The output will be the following:
 Initialized empty Git repository in /path/.git/
+```sh
+$ git init
+```
 
 #### Note. You can undo a $git init with rm -rf .git.
 
