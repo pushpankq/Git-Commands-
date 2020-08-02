@@ -143,7 +143,7 @@ It shows a listing of commits on a branch with corresponding details.
 ```sh
 $ git diff <source_branch> <target_branch>
 commit 35e16d379a466012216c2263592181f0bab99f36 (HEAD -> new, origin/master, origin/HEAD, master)
-Author: pushpankq@gmail.com <pushpank.kumar@finoit.co.in>
+Author: pushpankq@gmail.com <pushpankq@gmail.com>
 Date:   Sun Aug 2 12:18:42 2020 +0530
 
     Second commit
