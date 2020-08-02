@@ -118,6 +118,14 @@ However, if your branch is newly created, then you also need to upload the branc
 $ git push -u origin <branch_name>
 ```
 
+## $git pull
+
+The git pull command is used to get updates from the remote repo. This command is a combination of git fetch and git merge which means that, when we use git pull, it gets the updates from remote repository (git fetch) and immediately applies the latest changes in your local (git merge).
+
+```sh
+$ git pull <remote>
+```
+###### Note. This operation may cause conflicts that you need to solve manually.
 
 
 
