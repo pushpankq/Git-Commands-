@@ -73,5 +73,7 @@ $ git remote
 origin
 ```
 
+## $git checkout
+
 
 
