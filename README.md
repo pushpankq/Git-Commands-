@@ -112,6 +112,14 @@ After committing your changes, the next thing you want to do is send your change
 $ git push <remote> <branch-name>
 ```
 
+However, if your branch is newly created, then you also need to upload the branch with the following command:
+
+```sh
+$ git push -u origin <branch_name>
+```
+
+
+
 
 
 
