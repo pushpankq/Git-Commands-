@@ -164,4 +164,16 @@ Date:   Sun Aug 2 12:06:22 2020 +0530
     added text data
 ```
 
+## $git revert
 
+Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.
+
+A safer way that we can undo our commits is by using git revert. To see our commit history, first we need to use git log -- oneline:
+
+```sh
+$ git log --oneline 
+35e16d3 (HEAD -> new, origin/master, origin/HEAD, master) Second commit
+0a6c41d Merge pull request #1 from Kumar/dev
+641b9cf (origin/dev) added text data
+fc88733 initial commit
+```
