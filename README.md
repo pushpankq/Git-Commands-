@@ -33,6 +33,24 @@ $ git clone git@github:user/repository.git
 $ git clone -b branch_name git@github:user/repository.git
 ```
 
+## $git add
+
+Add one or more files in your working directory to your index.
+
+To add a single file:
+
+```sh
+$ git add <filename>
+```
+
+To add everything at once:
+
+```sh
+$ git add .
+```
+
+
+
 
 
 
