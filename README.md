@@ -78,7 +78,15 @@ origin
 You can switch from an existing branch to another one 
 
 ```sh
-$ git branch <branchname>
-orig
+$ git checkout <branchname>
+```
+
+You can create a new branch and switch to it
+
+```sh
+$ git checkout -b <branch_name>
+```
+
+
 
 
