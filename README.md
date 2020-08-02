@@ -128,6 +128,10 @@ $ git pull <remote>
 ###### Note. This operation may cause conflicts that you need to solve manually.
 
 
+## $git diff
 
+Show changes between your working tree and the index, between two branches, or changes between two files on disk.
 
-
+```sh
+$ git diff <source_branch> <target_branch>
+```
