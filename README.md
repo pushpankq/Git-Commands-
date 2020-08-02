@@ -69,7 +69,7 @@ $ git status
 Shows all the remote versions of your repository.
 
 ```sh
-puspankkumar@Pushpanks-MacBook-Air TestingRepo $ git remote
+$ git remote
 origin
 ```
 
