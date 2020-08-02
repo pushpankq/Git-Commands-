@@ -57,3 +57,12 @@ Take all your changes written in the index to the HEAD branch with a -m message.
 $ git commit -m "Initial Commit"
 ```
 
+## $git status
+
+It shows you the status difference between an index and working directory files. Lists the files you've changed, untracked because they are only in your working directory and staged since they are ready to be committed.
+
+```sh
+$ git status
+```
+
+
