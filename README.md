@@ -220,3 +220,5 @@ The advantage of using git revert is that it doesn't touch the commit history. T
 
 Another safety measure here is that everything happens in our local system unless we push them to the remote repo. That's why git revert is safer to use and is the preferred way to undo our commits.
 
+## $git merge
+
