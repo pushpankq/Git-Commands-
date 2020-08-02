@@ -49,8 +49,11 @@ To add everything at once:
 $ git add .
 ```
 
+## $git commit
 
+Take all your changes written in the index to the HEAD branch with a -m message.
 
-
-
+```sh
+$ git commit -m "Initial Commit"
+```
 
