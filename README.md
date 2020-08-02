@@ -177,3 +177,9 @@ $ git log --oneline
 641b9cf (origin/dev) added text data
 fc88733 initial commit
 ```
+
+Then we just need to specify the hash code next to our commit that we would like to undo:
+
+```sh
+$ git revert 35e16d3 
+```
