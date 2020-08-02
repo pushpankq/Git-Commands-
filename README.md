@@ -17,5 +17,8 @@ Initialized empty Git repository in /path/.git/
 $ git init
 ```
 
-#### Note. You can undo a $git init with rm -rf .git.
+###### Note. You can undo a $git init with rm -rf .git.
+
+## $git clone <path>
+
 
