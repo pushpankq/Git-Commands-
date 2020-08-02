@@ -1,4 +1,4 @@
-# Git-Commands
+# Git Commands
 
 ## $git config
 
@@ -87,6 +87,20 @@ You can create a new branch and switch to it
 $ git checkout -b <branch_name>
 ```
 
+## $git branch
 
+With this, you can simply list all existing branches, including remote branches by using -a or create a new branch if a branch name is provided.
 
+```sh
+$ git branch
+* master
+```
+
+```sh
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/dev
+  remotes/origin/master
+```
 
