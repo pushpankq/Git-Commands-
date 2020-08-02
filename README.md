@@ -104,3 +104,14 @@ $ git branch -a
   remotes/origin/master
 ```
 
+## $git push
+
+After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
+
+```sh
+$ git push <remote> <branch-name>
+```
+
+
+
+
