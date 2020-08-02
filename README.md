@@ -150,7 +150,7 @@ Date:   Sun Aug 2 12:18:42 2020 +0530
 
 commit 0a6c41d8d223d7d268d378354f35d5c19008da23
 Merge: fc88733 641b9cf
-Author: Kumar <31385878+DeekshaRaturi@users.noreply.github.com>
+Author: kumar_1994 <31385878+Kumar@users.noreply.github.com>
 Date:   Sun Aug 2 12:12:51 2020 +0530
 
     Merge pull request #1 from kumar/dev
