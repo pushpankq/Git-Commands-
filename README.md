@@ -183,3 +183,37 @@ Then we just need to specify the hash code next to our commit that we would like
 ```sh
 $ git revert 35e16d3 
 ```
+
+After this, you will see a screen like below - just press shift + q to exit:
+
+```sh
+hint: Waiting for your editor to close the file... 
+Revert "changes"
+
+This reverts commit 7c3da500c13ecd1149e767dc1924fb85c98e920d.
+
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch new
+# Changes to be committed:
+#       modified:   NewText.txt
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"~/TestingRepo/.git/COMMIT_EDITMSG" 11L, 289C
+```
+
+
