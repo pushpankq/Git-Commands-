@@ -9,6 +9,12 @@ $ git config --global user.name "Pushpank"
 $ git config --global user.email "pushpank@gmail.com"
 ```
 
+Remove github user
+
+```sh
+$ git credential-manager delete https://github.com
+```
+
 ## $git init
 
 Using this command you make it sure that your git repository is initialized and creates the initial .git directory in a new or in an existing project. The output will be the following:
