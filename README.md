@@ -316,4 +316,9 @@ $ git tag -a v1.2 <commit_id>
 $ git push origin v1.2
 ```
 
+If you have a lot of tags that you want to push up at once, you can also use the --tags option to the git push command. This will transfer all of your tags to the remote server that are not already there.
+
+```sh
+$ git push origin --tags
+```
 
