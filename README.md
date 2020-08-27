@@ -110,6 +110,12 @@ $ git branch -a
   remotes/origin/master
 ```
 
+ Delete a branch
+ 
+ ```sh
+$ git branch -d <branch_name>
+```
+
 ## $git push
 
 After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
