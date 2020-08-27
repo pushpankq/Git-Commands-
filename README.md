@@ -37,16 +37,16 @@ This creates a working copy of a Git repository from a remote source to your loc
 $ git clone git@github:user/repository.git
 ```
 
-Adding Remote Repositories
-
-```sh
-$ git remote add pb https://github.com/paulboone/ticgit
-```
-
 ###### Note. You can clone one specific branch at a time:
 
 ```sh
 $ git clone -b branch_name git@github:user/repository.git
+```
+
+Adding Remote Repositories
+
+```sh
+$ git remote add pb https://github.com/paulboone/ticgit
 ```
 
 ## $git add
