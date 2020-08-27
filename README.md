@@ -282,7 +282,32 @@ $ git tag
 
 ### Creating Tags
 
+Git supports two types of tags: lightweight and annotated.
+
+#### Annotated Tags
+
+
 ```sh
 $ git tag -a v1.2 -m "version 1.2"
 ```
+
+You can see the tag data along with the commit that was tagged by using the git show command:
+
+```sh
+$ git show v1.2
+```
+
+#### Lightweight Tags
+
+```sh
+$ git tag v1.2-lw
+```
+
+#### Tagging Later
+You can also tag commits after you’ve moved past them. Suppose your commit history looks like this:
+
+$ git tag -a v1.2 <commit_id>
+
+
+
 
