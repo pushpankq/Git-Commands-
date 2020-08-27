@@ -272,4 +272,17 @@ $ git stash -u
 $ git stash pop
 ```
 
+## $git tag
+
+Listing the existing tags in Git is straightforward.
+
+```sh
+$ git tag
+```
+
+### Creating Tags
+
+```sh
+$ git tag -a v1.2 -m "version 1.2"
+```
 
