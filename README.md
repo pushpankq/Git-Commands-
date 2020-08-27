@@ -116,6 +116,12 @@ $ git branch -a
 $ git branch -d <branch_name>
 ```
 
+List all remote or local branches
+
+ ```sh
+$ git branch -a
+```
+
 ## $git push
 
 After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
