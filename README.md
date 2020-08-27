@@ -240,3 +240,9 @@ Another safety measure here is that everything happens in our local system unles
 
 ## $git merge
 
+Merge changes into current branch
+
+```sh
+$ git merge <branch_name>
+```
+
