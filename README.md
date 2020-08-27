@@ -322,3 +322,21 @@ If you have a lot of tags that you want to push up at once, you can also use the
 $ git push origin --tags
 ```
 
+#### Deleting Tag
+
+```sh
+$ git tag -d v1.2-lw
+```
+
+The second (and more intuitive) way to delete a remote tag is with:
+
+```sh
+$ git push origin --delete <tagname>
+```
+
+#### Checking out Tags
+
+```sh
+$ git checkout v2.0.0
+```
+
