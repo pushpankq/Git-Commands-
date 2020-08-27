@@ -130,6 +130,12 @@ After committing your changes, the next thing you want to do is send your change
 $ git push <remote> <branch-name>
 ```
 
+#### Push all local branches to remote repository
+
+```sh
+$ git push —all
+```
+
 However, if your branch is newly created, then you also need to upload the branch with the following command:
 
 ```sh
