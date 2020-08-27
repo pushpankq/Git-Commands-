@@ -250,13 +250,13 @@ $ git merge <branch_name>
 
 To save changes made when they’re not in a state to commit them to a repository. This will store the work and give a clean working directory. For instance, when working on a new feature that’s not complete, but an urgent bug needs attention.
 
-# Store current work with untracked files
+### Store current work with untracked files
 
 ```sh
 $ git stash -u
 ```
 
-# Bring stashed work back to the working directory
+### Bring stashed work back to the working directory
 
 ```sh
 $ git stash pop
