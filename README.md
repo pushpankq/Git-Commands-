@@ -306,8 +306,14 @@ $ git tag v1.2-lw
 #### Tagging Later
 You can also tag commits after you’ve moved past them. Suppose your commit history looks like this:
 
+```sh
 $ git tag -a v1.2 <commit_id>
+```
 
+#### Sharing Tags
 
+```sh
+$ git push origin v1.2
+```
 
 
